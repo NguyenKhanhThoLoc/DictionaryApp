@@ -28,7 +28,7 @@
          <font>
             <Font size="14.0" />
          </font></TextField>
-      <Button layoutX="333.0" layoutY="262.0" mnemonicParsing="false" onAction="#deleteWordFromDictionary" prefHeight="26.0" prefWidth="50.0" style="-fx-background-color: #90EE90; -fx-border-color: #6B8E23;" text="Edit" />
+      <Button layoutX="333.0" layoutY="262.0" mnemonicParsing="false" onAction="#editWordFromDictionary" prefHeight="26.0" prefWidth="50.0" style="-fx-background-color: #90EE90; -fx-border-color: #6B8E23;" text="Edit" />
       <Button layoutX="507.0" layoutY="341.0" mnemonicParsing="false" onAction="#goBack" style="-fx-background-color: #87CEFA; -fx-border-color: #20B2AA;" text="Back" />
    </children>
 </AnchorPane>
