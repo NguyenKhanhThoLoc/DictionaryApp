@@ -19,7 +19,7 @@ public class EditWordController {
     @FXML
     private TextField NewVietnamese;
 
-    public void deleteWordFromDictionary(ActionEvent event) throws IOException {
+    public void editWordFromDictionary(ActionEvent event) throws IOException {
         Dictionary dictionary = new Dictionary();
         DictionaryManagement dicManagement = new DictionaryManagement(dictionary);
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
