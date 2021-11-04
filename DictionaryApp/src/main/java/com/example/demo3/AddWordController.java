@@ -26,7 +26,7 @@ public class AddWordController {
         String vietnamese = Vietnamese.getText();
         dictionary.insertWord(english, vietnamese);
         dicManagement.dictionaryExportToFile();
-        alert.setContentText("More words of success!");
+        alert.setContentText("Add words of success!");
         alert.show();
     }
     public void goBack(ActionEvent event) throws IOException {
