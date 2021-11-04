@@ -26,7 +26,7 @@ public class DictionaryController {
     private ListView<String> Word;
 
     @FXML
-    public void translation(ActionEvent event) throws IOException {
+    public void translate(ActionEvent event) throws IOException {
         Dictionary dictionary = new Dictionary();
         DictionaryManagement dicManagement = new DictionaryManagement(dictionary);
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
